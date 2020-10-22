@@ -155,10 +155,6 @@ a:hover {
   box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
 }
 
-
-
-
-
 .projects h3 {
   padding-top: 80px;
   color: white;
@@ -196,20 +192,32 @@ a:hover {
   width: 30%;
 }
 
-.profile {
-
-}
-
 @media (max-width: 1028px) {
+
+  .profile-description {
+    width: 70%;
+  }
 
   .project-img {
     width: 50%;
   }
 
+  .projects p {
+    width: 70%;
+  }
 }
 
 @media (max-width: 640px) {
+
+  .profile-description {
+    width: 80%;
+  }
+
   .project-img {
+    width: 80%;
+  }
+
+  .projects p {
     width: 80%;
   }
 }
