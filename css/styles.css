@@ -147,14 +147,17 @@ a:hover {
 
 .project-img {
   width: 35%;
-  padding-top: 20px;
+  margin-top: 20px;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.5), -2px -2px 4px rgba(0,0,0,0.5);
+}
+
+.project-img:hover {
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
 }
 
 
 
-.projects a:hover {
 
-}
 
 .projects h3 {
   padding-top: 80px;
