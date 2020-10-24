@@ -4,9 +4,7 @@ body {
   font-family: 'Merriweather', sans-serif;
   color:#40514E;
 }
-/*
-16px = 100% = 1em
-90px / 16 = 562.5*/
+
 h1 {
   font-size: 5.625rem;
   margin-top: 50px auto 0 auto;
@@ -41,17 +39,9 @@ p {
 }
 
 .projects p {
-  /* padding-top: 50px; */
   padding-bottom: 50px;
   margin: auto;
   width: 30%;
-}
-
-hr {
-  margin: 100px auto;
-  border: dotted #916dd5 6px;
-  border-bottom: none;
-  width: 4%;
 }
 
 a {
@@ -210,6 +200,9 @@ a:hover {
 
 @media (max-width: 640px) { 
 
+  #mountain {
+    width: 100%;
+  }
 
   .profile-description {
     width: 80%;
@@ -222,5 +215,4 @@ a:hover {
   .projects p {
     width: 80%;
   }
-
 }
